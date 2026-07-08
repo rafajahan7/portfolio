@@ -143,11 +143,33 @@ ul li a{
     display:grid;
     gap:12px;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-auto-rows: 550px;
-    /* grid-template-areas: ; */
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three" 
+    "four five six"
+    "four five six";
 }
 .gallery img{
     height:100%;
     width:100%;
     object-fit: cover;
+}
+
+.box-1{
+   grid-area: one;
+}
+.box-2{
+   grid-area: two;
+}
+.box-3{
+   grid-area: three;
+}
+.box-4{
+   grid-area: four;
+}
+.box-5{
+   grid-area: five;
+}
+.box-6{
+   grid-area: six;
 }
