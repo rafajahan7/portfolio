@@ -173,3 +173,31 @@ ul li a{
 .box-6{
    grid-area: six;
 }
+
+/* footer */
+
+footer{
+    text-align:center;
+    margin-top: 70px !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 8px;
+}
+footer form{
+    padding: 20px;
+}
+footer form input{
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    padding: 30px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+   
+
+}
