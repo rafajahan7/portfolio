@@ -84,3 +84,52 @@ ul li a{
     background-color: #fff8f3;
 
 }
+
+/* about us */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align:center;
+}
+.about-parent p{
+    margin: 20px 0;
+}
+.about-box-parent{
+    display:flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+       background-color:#f1c6a7;
+       padding: 5px;
+       border-radius: 5px;
+}
+/* what i do section */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+
+}
+ .what-i-do-card-container{
+      margin-top: 30px; 
+     display: flex;
+     justify-content: space-between;
+     gap: 8px;
+} 
+
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #fd6e0a;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
+}
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
